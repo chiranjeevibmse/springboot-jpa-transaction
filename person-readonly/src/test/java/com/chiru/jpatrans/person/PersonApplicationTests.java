@@ -20,7 +20,7 @@ class PersonApplicationTests {
 		PersonCreateModel model = new PersonCreateModel();
 		model.setName("Chiru");
 		personService.createAPerson(model);
-		assertEquals(personService.getAllPersons().size(),1);
+		assertEquals(personService.getAllPersons().size(),0);
 	}
 
 }
