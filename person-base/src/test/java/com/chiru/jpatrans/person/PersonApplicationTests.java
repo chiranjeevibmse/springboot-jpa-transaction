@@ -17,6 +17,7 @@ class PersonApplicationTests {
 	private PersonService personService;
 	
 	@Test
+	@DisplayName("Create a Person with name")
 	void testPersonCreate() {
 		PersonCreateModel model = new PersonCreateModel();
 		model.setName("Chiru");

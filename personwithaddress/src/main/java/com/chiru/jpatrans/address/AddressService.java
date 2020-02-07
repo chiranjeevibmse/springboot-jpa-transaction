@@ -2,8 +2,6 @@ package com.chiru.jpatrans.address;
 
 import java.util.List;
 
-import com.chiru.jpatrans.person.Person;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
